@@ -1,0 +1,78 @@
+body{
+font-family:Arial;
+margin:0;
+background:linear-gradient(135deg,#1d2671,#c33764);
+color:white;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+padding:20px;
+background:rgba(0,0,0,0.3);
+}
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+}
+
+.hero{
+text-align:center;
+margin-top:150px;
+}
+
+.mainbtn{
+padding:15px 30px;
+font-size:18px;
+background:gold;
+border:none;
+border-radius:10px;
+cursor:pointer;
+}
+
+.formbox{
+width:300px;
+margin:150px auto;
+background:white;
+color:black;
+padding:30px;
+border-radius:10px;
+text-align:center;
+}
+
+.formbox input{
+width:100%;
+padding:10px;
+margin:10px 0;
+}
+
+.formbox button{
+padding:10px;
+width:100%;
+background:#1d2671;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+.dashboard{
+text-align:center;
+margin-top:100px;
+}
+
+.dashboard input{
+width:400px;
+padding:10px;
+}
+
+.dashboard button{
+padding:10px 20px;
+margin-top:10px;
+}
+
+#answerBox{
+margin-top:30px;
+font-size:20px;
+}
